@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto Mono");
+
+:root {
+    --font-family: "Roboto Mono";
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #fcfcfc;
+    /*--primary-color: #4756df;*/
+    --primary-color: #64ffda;
+    --secondary-color: #ff7235;
+    --stascndcol: #a8b2d1;
+    --primary-shadow: #8b8eaf;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+    /*--stbackgroundcol: #233554;*/
+    --stbackgroundcol: #304155;
+    /*--stbackgroundcol: #0e192d;*/
+}
+
+body {
+    font-family: 'Roboto Mono';
+    background-color: var(--stbackgroundcol);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3.5rem;
+    background-color: var(--stbackgroundcol);
+    /*box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1)*/
+}
+
+nav h1 {
+    color: var(--primary-color);;
+    font-size: 20px;
+}
+  
+nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+    font-size: 13px;
+}
+nav a:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+}
+
+nav ul li {
+    font-weight: var(--bold-font);
+}
+
+.burger-menu {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.navtit {
+    display: inline-block;
+    color: var(--stascndcol);
+}
+
+.navtit:hover {
+    color: var(--primary-color);
+}
+
+/*.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+/*
+.hero img {
+    height: 37.5rem;
+    width: 37.5rem;
+}
+*/
+/*
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.bio h1 {
+    margin-bottom: var(--bottom-margin);
+}
+
+.bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+}*/
+
+
+
+#about2 h1 {
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+#about2 h2 {
+    color: #CCD6F6;
+    font-size: 50px;
+    padding-top: 17px;
+    display: inline-block;
+}
+
+#about2 h3 {
+    color: #8892b0;
+    font-size: 15px;
+    padding-top: 30px;
+    width: 50%;
+    text-align: justify;
+}
+
+#about2 {
+    padding-top: 11.5rem;
+    width: 70%;
+    margin-left: 21%;
+    height: calc(88vh);
+    
+}
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+  
+.skill-header {
+    margin-bottom: 1rem;
+}
+  
+.skills-wrapper img {
+    padding: 1.25rem;
+}
+  
+.icon {
+    width: 11.875rem;
+    height: 11.25rem;
+}
+
+#sklheadnum {
+    color: var(--primary-color);
+    font-size: 20px;
+    display: inline-block;
+}
+
+.skill-header {
+    display: inline-block;
+    color: #CCD6F6;
+    font-size: 25px;
+}
+
+#skills h1 {
+    color: #CCD6F6;
+    font-size: 18px;
+}
